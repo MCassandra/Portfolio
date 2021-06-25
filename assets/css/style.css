@@ -35,9 +35,7 @@ nav a {
     
 }
 
-/*making sections*/
-
-
+/* body components */
 h2 {
     text-align: left;
     color:teal;
@@ -53,52 +51,59 @@ h2 {
     padding: 1%;
     margin: 1%;
 }
-
+/* about me section */
 section > h2 {
    flex: 0 0 25%;
 }
 section > div {
   flex: 0 0 70%;
 }
-
-
+#aboutme {
+  flex-wrap: wrap;
+    width: 200px;
+    height: auto;
+}
+/* work/projects */
 .projects {
     display:flex; 
     flex-direction: column;
     
 }
 #one {
-  flex: 0 0 10%;
+  height:300px;
+  width:300px;
+  
 }
 #two {
-  flex: 0 0 0;
+  height:200px;
+  width: 200px;
 }
 
 #three {
-  flex: 0 0 0;
+  height:200px;
+  width: 200px;
 }
 
-#aboutme {
-  flex-wrap: wrap;
-    width: 200px;
-    height: auto;
+/* contact me section */
+.contact {
+    display:flex;
+    justify-content: space-evenly;
 }
-
-
 
 @media screen and (max-width: 1000px) {
-    header {
-      background: #264d00;
-    }
+  header {
+    background-color: darkblue;
   }
+  nav ul {
+    background-color: darkblue;
+  } 
+}
 
-  @media screen and (max-width: 768px) {
-    nav {
-      background-color: #264d00;
-    }
+@media screen and (max-width: 800px) {
+  header {
+    background-color: pink;
   }
-  @media screen and (max-width: 576px) {
-    .projects {
-      background-color: #8ac4ff;
-    }
+  nav ul{
+    background-color: pink;
   }
+}
