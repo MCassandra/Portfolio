@@ -30,6 +30,7 @@ nav a {
     color:whitesmoke;
     font-weight: bolder;
     font-size: 24px;
+    margin: 7px;
     
     
 }
@@ -60,20 +61,29 @@ section > div {
   flex: 0 0 70%;
 }
 
-.section img {
-    flex-wrap: wrap;
-    width: 200px;
-    height: auto;
-  }
 
 .projects {
-    position: relative;
-    left: 75%; 
+    display:flex; 
+    flex-direction: column;
+    
 }
-#photo {
-    position: relative;
-    left: 300px;
+#one {
+  flex: 0 0 10%;
 }
+#two {
+  flex: 0 0 0;
+}
+
+#three {
+  flex: 0 0 0;
+}
+
+#aboutme {
+  flex-wrap: wrap;
+    width: 200px;
+    height: auto;
+}
+
 
 
 @media screen and (max-width: 1000px) {
