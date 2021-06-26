@@ -62,11 +62,13 @@ section > div {
   flex-wrap: wrap;
     width: 200px;
     height: auto;
+    
 }
 /* work/projects */
 .projects {
     display:flex; 
     flex-direction: column;
+    
     
 }
 #one {
