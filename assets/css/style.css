@@ -66,25 +66,18 @@ section > div {
 }
 /* work/projects */
 .projects {
-    display:flex; 
+    display:block; 
     flex-direction: column;
-    
-    
 }
-#one {
-  height:300px;
-  width:300px;
-  
-}
-#two {
-  height:200px;
-  width: 200px;
+.projects > h2 {
+  flex: 0 0 75%;
 }
 
-#three {
-  height:200px;
-  width: 200px;
+#one {
+  display: flex;
+  width: 300px;
 }
+  
 
 /* contact me section */
 .contact {
