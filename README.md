@@ -1,7 +1,7 @@
 # Portfolio
 The goal for this homework was to create your first portfolio with the following aspects:
   1. When the links in the nav bar are clicked, the user interface scrolls to that section
-  2. When click on the links in section about the work, the user interface scrolls to the title images of developed app
+  2. When click on the links in section about the work, the user interface scrolls to the title images of developed app (<strong>I was not able to get this part</strong>)
   3. The first project application image should be bigger than the others.
   4. When the image of the first app is clicked the app is deployed
   5. When the page is resized the layout is responsive
@@ -16,6 +16,5 @@ I then added media queries to have the page respond when it's made bigger or sma
 
 I then used gave each section an anchor id. I put those ids in a href to link in the nav bar so when clicked, the page jumps to that section. 
 
-
-
+Please check out my portfolio here : https://mcassandra.github.io/Portfolio/
 
